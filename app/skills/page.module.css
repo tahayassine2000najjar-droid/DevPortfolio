@@ -1,0 +1,24 @@
+.skills h1 {
+  margin-bottom: 0.5rem;
+}
+
+.skills p {
+  margin-bottom: 3rem;
+  color: #666;
+}
+
+.category {
+  margin-bottom: 3rem;
+}
+
+.category h2 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}

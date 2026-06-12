@@ -1,0 +1,14 @@
+.portfolio h1 {
+  margin-bottom: 0.5rem;
+}
+
+.portfolio p {
+  margin-bottom: 3rem;
+  color: #666;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
