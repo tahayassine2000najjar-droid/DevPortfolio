@@ -16,7 +16,7 @@ export default function Home() {
           <Link href="/portfolio" className={styles.ctaButton}>
             Voir mes projets
           </Link>
-          <a href="/cv.pdf" download className={styles.cvButton}>
+          <a className={styles.cvButton} href="/cv.pdf" download>
             Télécharger CV
           </a>
         </div>
